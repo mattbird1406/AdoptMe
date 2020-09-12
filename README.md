@@ -11,4 +11,11 @@ npm i -D eslint eslint-config-prettier
 npm i -D parcel-bundler
 npm i react react-dom
 install npm intellisense extension
-remember to run npm install if moving forward in commits
+//remember to run npm install if moving forward in /////commits
+npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+//babel is the transpiler
+//helps eslint and babel work together
+//a11y is accessibility 
+//make sure the eslint extends prettier rules are last int the eslintrc file as they just turn stuff off
+
+anthing that can go on a right side of an assignment in javascript is an expression and can be used in {}
