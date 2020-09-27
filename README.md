@@ -15,7 +15,7 @@ install npm intellisense extension
 npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 //babel is the transpiler
 //helps eslint and babel work together
-//a11y is accessibility 
+//a11y is accessibility
 //make sure the eslint extends prettier rules are last int the eslintrc file as they just turn stuff off
 
 anthing that can go on a right side of an assignment in javascript is an expression and can be used in {}
@@ -24,5 +24,4 @@ npm i -D eslint-plugin-react-hooks
 
 //parentheses in the arrow function signify an //// ///implicit return compared to using {} which requires you type return
 
-
-  
+//Reach router better at accessibility than react router

@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add reach
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\dev\AdoptMe\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\matt\AppData\Local\Microsoft\WindowsApps;;C:\Users\matt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\matt\AppData\Roaming\npm;C:\Users\matt\AppData\Local\Yarn\bin;C:\Users\matt\.dotnet\tools
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\dev\AdoptMe\node_modules\deasync\bin\win32-x64-node-12\deasync.node'
+
+npm manifest: 
+  {
+    "name": "AdoptMe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "dev": "parcel src/index.html",
+      "dev:mock": "cross-env PET_MOCK=mock npm run dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mattbird1406/AdoptMe.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mattbird1406/AdoptMe/issues"
+    },
+    "homepage": "https://github.com/mattbird1406/AdoptMe#readme",
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "cross-env": "^7.0.2",
+      "eslint": "^7.8.1",
+      "eslint-config-prettier": "^6.11.0",
+      "eslint-plugin-import": "^2.22.0",
+      "eslint-plugin-jsx-a11y": "^6.3.1",
+      "eslint-plugin-react": "^7.20.6",
+      "eslint-plugin-react-hooks": "^4.1.2",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^2.1.1"
+    },
+    "dependencies": {
+      "@frontendmasters/pet": "^1.0.3",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    },
+    "browserslist": [
+      "last 2 Chrome versions"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
