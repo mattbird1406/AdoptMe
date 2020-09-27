@@ -25,3 +25,12 @@ npm i -D eslint-plugin-react-hooks
 //parentheses in the arrow function signify an //// ///implicit return compared to using {} which requires you type return
 
 //Reach router better at accessibility than react router
+
+npm install -D babel-eslint @babel/core @babel/preset-env @babel/plugin-proposal-class-properties @babel/preset-react
+
+//babel transpiles the javascript
+
+a + infront of a string variable turns it into a number instead of doing an number conversion
+
+
+//this inside an arrow function will be this where it was written as opposed to a function using this which this is where it is being invoked
